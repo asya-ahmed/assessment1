@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;}
+
+  /*font for whole page*/
+html {
+  font-family: 'Raleway', sans-serif;}
+
+  /*header*/
+header{
+  background-color: #ffffff;}
+
+#logo {
+    padding-top: 25px;}
+
+nav{
+  width: 100%;
+  overflow: auto;}
+
+/*to remove the bullet points and center*/
+ul{
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  list-style: none;
+  text-align: center;}
+
+li{
+  display: inline-block;}
+
+/*style for nav links*/
+nav a{
+  width: 100%;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color : #191919;
+  padding: 25px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;}
+
+nav a:hover {
+  text-decoration: underline;}
+
+  /*a fixed button that will take user to the top of the page*/
+#myButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #191919;
+  color: #eaf5f7;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;}
+
+#myButton:hover {
+  background-color: #003862;}
+
+/*style for first section like choosing positoning, background color, font& text specifications, etc*/
+#firstsection {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 7rem 10rem;
+  background-color: #eaf5f7;
+  font-size: 2rem;
+  color: #003862;
+  text-align: center;
+  letter-spacing: 0.2rem;}
+
+/*image positioning*/
+#firstsection img {
+  position: relative;
+  width: 100%;
+  height: auto;}
+
+  /*style for product preview section like choosing positoning, background color, font& text specifications, etc*/
+#productpreviews {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 3em 3em;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+/*table of images specifications*/
+#gallery{
+  width: 80%;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  padding-bottom: 30px;}
+
+  /*image positioning*/
+#gallery img {
+  position: relative;
+  max-width: 200px;
+  max-height: 245px;
+height: 100%;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;}
+
+/*about us section details like background color, font&text styles, etc*/
+#aboutus {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 7em 20em;
+  color: #ffffff;
+  background-color: #191919;}
+
+/*h1 style*/
+#aboutus h1 {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+letter-spacing: 0.2rem;}
+
+/*p style*/
+#aboutus p {
+  position: relative;
+  font-size: 1rem;
+  text-align: center;
+letter-spacing: 0.1rem;}
+
+/*style for footer for all pages*/
+footer{
+  position: relative;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eaf5f7;
+  font-size: 15px;
+  text-align: center;}

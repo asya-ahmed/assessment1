@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/home.css" type="text/css" rel="stylesheet" />
+    <title>Home page || @emz_bh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+</head>
+  <body>
+  <div id="container">
+    <button onclick="topFunction()" id="myButton" title="go to the top of the page">
+    Top</button>
+    <script>
+      let mybutton = document.getElementById("myButton");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+        mybutton.style.display = "block";}
+      else {
+        mybutton.style.display = "none";}  }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;}
+    </script>
+    <div id="header">
+      <header class="header">
+    <div id="logo">
+      <a href="index.html">
+      <center>
+      <img src="images/logo.jpg" alt="the business's logo" title="welcome page"
+      width="90" height="90"></center>
+      </a>
+    </div>
+    <nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="abaya.html">Abayas</a></li>
+    <li><a href="ramadan.html">Ramadan</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+
+  </header>
+    </div>
+
+    <!-- Content Starts Here -->
+    <section id="content">
+  <div id="firstsection">
+    <img src="images/firstSection.jpg" alt="grey & white abaya"
+    title="grey & white abaya ">
+    <h1>
+      <strong>SHOP OUR LATEST COLLECTION</strong>
+    </h1>
+  </div>
+
+  <div id="productpreviews">
+  <h1>Our best sellers</h1>
+  <div id="gallery">
+    <table>
+      <tbody>
+        <tr>
+          <td><img src="images/preview1.jpg" alt="grey & white abaya"
+          title="grey & white abaya"></td>
+          <td><img src="images/preview2.JPG" alt="grey jalabeeya" title="grey jalabeeya"></td>
+          <td><img src="images/preview3.jpg" alt="striped abaya" title="striped abaya"></td>
+          <td><img src="images/preview4.JPG" alt="navy blue & white jalabeeya"
+              title="navy blue & white jalabeeya" ></td>
+        </tr>
+      </tbody>
+    </table>
+      </div>
+  </div>
+
+  <div id="aboutus">
+    <h1>
+      <strong>ABOUT OUR STORE</strong>
+    </h1>
+    <p>
+      <br>
+      A Life of Fashion
+      <br> <br>
+      EMZ Couture has been bringing exceptional style to shoppers far and wide since
+      our founding, and we don’t intend on stopping anytime soon. We would like
+      to share or passion of designing the traditional abaya and jalabeya to a
+      more modern style. Our vision is fast-paced, forward-thinking and fashion-centered at its core, and all of our products reflect these ideals.
+      <br> <br>
+      We invite you to browse through our site to find just what you have
+      been looking for.
+    </p>
+  </div>
+</section>
+<footer>
+  <p>Follow us on our social media account!</p>
+  <div id="instagram">
+    <a href="https://www.instagram.com/emz_bh/" target="_blank"><img
+    src="images/instaicon.png" alt="insta icon" title="@emz_bh on instagram"></a>
+  </div>
+</footer>
+  </div>
+  </body>
+</html>

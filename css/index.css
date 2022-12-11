@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;}
+
+  /*font for whole page*/
+html{
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;}
+
+a {
+  text-decoration: none;}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+/*adding a image background to the page*/
+#welcome {
+  background-image:url("welcomeimage.jpg");
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;}
+
+#welcome::after {
+content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 65%;
+  z-index: -1;}
+
+#welcome .welcome {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  justify-content: center;}
+
+/*style for h1 */
+#welcome h1 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: #ffffff;}
+
+/* style for call to action*/
+#welcome .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #003862;
+  background-color: #ffffff;
+  opacity: 70%;
+  border: 2px solid #003862;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 15px;
+  transition: 0.3s ease;}
+
+/*stlye when user hovers it*/
+#welcome .cta:hover {
+  color: #ffffff;
+  background-color: #003862;}
